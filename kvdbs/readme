@@ -1,0 +1,9 @@
+How to:
+
+modify account.php Line 45 -> '*****', '*****' (For Example:'10000@Gmail.com','password')
+
+SAE Control Panel -> KVDB -> Start
+
+Svn Commit code,enjoy it!
+
+http://weibo.com/gdxkc
