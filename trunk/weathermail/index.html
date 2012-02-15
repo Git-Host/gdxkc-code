@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>天气预报邮件系统</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>天气预报邮件系统</a></h1>
+		<form id="form_348522" class="appnitro"  method="post" action="post.php">
+					<div class="form_description">
+			<h2>天气预报邮件系统(Ver 0.1)</h2>
+			<p>本系统是通过邮件发送天气预报到你的手机邮箱,然后由你的手机邮箱转发到你的手机,达到短信接收天气预报的目的!</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">手机邮箱: </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li class="section_break">
+			<h3>小提示:</h3>
+			<p>139邮箱注册地址:mail.139.com
+189邮箱注册地址:www.189.cn
+联通邮箱注册地址:mail.wo.com.cn</p>		</li>		<li class="section_break">
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">通知时间: </label>
+		<div>
+		<select class="element select medium" id="element_7" name="element_7"> 
+			<option value="0" >0:00</option>
+<option value="1" >1:00</option>
+<option value="2" >2:00</option>
+<option value="3" >3:00</option>
+<option value="4" >4:00</option>
+<option value="5" >5:00</option>
+<option value="6" >6:00</option>
+<option value="7" >7:00</option>
+<option value="8" >8:00</option>
+<option value="9" >9:00</option>
+<option value="10" >10:00</option>
+<option value="11" >11:00</option>
+<option value="12" >12:00</option>
+<option value="13" >13:00</option>
+<option value="14" >14:00</option>
+<option value="15" >15:00</option>
+<option value="16" >16:00</option>
+<option value="17" selected="selected">17:00</option>
+<option value="18" >18:00</option>
+<option value="19" >19:00</option>
+<option value="20" >20:00</option>
+<option value="21" >21:00</option>
+<option value="22" >22:00</option>
+<option value="23" >23:00</option>
+<option value="24" >24:00</option>
+
+		</select>
+		</div> 
+		</li>		<li class="section_break">
+			<h3>小提示:</h3>
+			<p>请尽量避开高峰时期,比如14点发送,然后可以16点再看!系统拥挤可能会导致这一时段的所有使用者都无法接收短信。</p>
+		</li>		<li id="li_4" >
+                		</li>		<li class="section_break">
+		<label class="description" for="element_4">城市序号: </label>
+		<div>
+			<input id="element_4" name="element_4" class="element text small" type="text" maxlength="255" value="101280101"/> 
+		</div> 
+		</li>		<li class="section_break">
+			<h3>小提示:</h3>
+			<p>要获得你的城市序号,可以登录http://weather.com.cn/然后查找自己的城市,注意地址栏,比如广州就是101280101。</p>
+		</li>		<li id="li_8" >		</li>		<li class="section_break">
+		<label class="description" for="element_8">附加: </label>
+		<span>
+			<input id="element_8_1" name="element_8" class="element radio" type="radio" value="1" />
+<label class="choice" for="element_8_1">我愿意建立相同的应用,并公开服务!</label>
+<input id="element_8_2" name="element_8" class="element radio" type="radio" value="2" checked="checked"/>
+<label class="choice" for="element_8_2">我不愿意参与帮助!</label>
+
+		</span> 
+		</li>		<li class="section_break">
+			<h3>小提示:</h3>
+			<p>你的帮助可以使更多的人享受到更好的天气预报邮件服务!</p>		</li>		<li class="section_break">
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="348522" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+		<div id="footer"> 
+                  Form by <a href="http://www.phpform.org">pForm</a>  && Core by <a href="http://weibo.com/gdxkc">@淡淡清香弥漫世界</a>
+		</div>
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+	</body>
+</html>
