@@ -1,0 +1,9 @@
+进入MySQL数据库并进入数据库表，执行
+CREATE TABLE IF NOT EXISTS `Email` (
+  `Time` varchar(30) NOT NULL,
+  `Email` varchar(15) NOT NULL,
+  `City` varchar(15) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+上传代码，修改邮件密码等等参数立即可以使用~
+
+@淡淡清香弥漫世界 http://weibo.com/gdxkc
